@@ -1,0 +1,16 @@
+//
+//  TImageJoiningExample.pch
+//  TImageJoiningExample
+//
+//  Created by Jeavil_Tang on 2016/11/2.
+//  Copyright © 2016年 Jeavil. All rights reserved.
+//
+
+#ifndef TImageJoiningExample_h
+#define TImageJoiningExample_h
+
+// Screen
+#define ScreenHeight ([[UIScreen mainScreen] bounds].size.height)
+#define ScreenWidth ([[UIScreen mainScreen] bounds].size.width)
+
+#endif /* TImageJoiningExample_h */

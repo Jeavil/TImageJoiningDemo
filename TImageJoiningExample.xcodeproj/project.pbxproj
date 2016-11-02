@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95475A131DC9843D00DF0498 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95475A121DC9843D00DF0498 /* main.m */; };
+		95475A161DC9843D00DF0498 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95475A151DC9843D00DF0498 /* AppDelegate.m */; };
+		95475A1E1DC9843D00DF0498 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95475A1D1DC9843D00DF0498 /* Assets.xcassets */; };
+		95475A211DC9843D00DF0498 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95475A1F1DC9843D00DF0498 /* LaunchScreen.storyboard */; };
+		95475A2C1DC9843E00DF0498 /* TImageJoiningExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95475A2B1DC9843E00DF0498 /* TImageJoiningExampleTests.m */; };
+		95475A371DC9843E00DF0498 /* TImageJoiningExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95475A361DC9843E00DF0498 /* TImageJoiningExampleUITests.m */; };
+		95475A461DC986E500DF0498 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95475A451DC986E500DF0498 /* ViewController.m */; };
+		95475A491DC9870900DF0498 /* ShareImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95475A481DC9870900DF0498 /* ShareImageView.m */; };
+		95475A4E1DC98A6900DF0498 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95475A4D1DC98A6900DF0498 /* DetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95475A281DC9843E00DF0498 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95475A061DC9843D00DF0498 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95475A0D1DC9843D00DF0498;
+			remoteInfo = TImageJoiningExample;
+		};
+		95475A331DC9843E00DF0498 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95475A061DC9843D00DF0498 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95475A0D1DC9843D00DF0498;
+			remoteInfo = TImageJoiningExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		95475A0E1DC9843D00DF0498 /* TImageJoiningExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TImageJoiningExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95475A121DC9843D00DF0498 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95475A141DC9843D00DF0498 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		95475A151DC9843D00DF0498 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		95475A1D1DC9843D00DF0498 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95475A201DC9843D00DF0498 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95475A221DC9843D00DF0498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95475A271DC9843E00DF0498 /* TImageJoiningExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TImageJoiningExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95475A2B1DC9843E00DF0498 /* TImageJoiningExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TImageJoiningExampleTests.m; sourceTree = "<group>"; };
+		95475A2D1DC9843E00DF0498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95475A321DC9843E00DF0498 /* TImageJoiningExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TImageJoiningExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95475A361DC9843E00DF0498 /* TImageJoiningExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TImageJoiningExampleUITests.m; sourceTree = "<group>"; };
+		95475A381DC9843E00DF0498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95475A441DC986E500DF0498 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Controller/ViewController.h; sourceTree = "<group>"; };
+		95475A451DC986E500DF0498 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Controller/ViewController.m; sourceTree = "<group>"; };
+		95475A471DC9870900DF0498 /* ShareImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShareImageView.h; path = View/ShareImageView.h; sourceTree = "<group>"; };
+		95475A481DC9870900DF0498 /* ShareImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShareImageView.m; path = View/ShareImageView.m; sourceTree = "<group>"; };
+		95475A4C1DC98A6900DF0498 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = Controller/DetailViewController.h; sourceTree = "<group>"; };
+		95475A4D1DC98A6900DF0498 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = Controller/DetailViewController.m; sourceTree = "<group>"; };
+		95475A4F1DC9986A00DF0498 /* TImageJoiningExample.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TImageJoiningExample.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95475A0B1DC9843D00DF0498 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95475A241DC9843E00DF0498 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95475A2F1DC9843E00DF0498 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95475A051DC9843D00DF0498 = {
+			isa = PBXGroup;
+			children = (
+				95475A101DC9843D00DF0498 /* TImageJoiningExample */,
+				95475A2A1DC9843E00DF0498 /* TImageJoiningExampleTests */,
+				95475A351DC9843E00DF0498 /* TImageJoiningExampleUITests */,
+				95475A0F1DC9843D00DF0498 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95475A0F1DC9843D00DF0498 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95475A0E1DC9843D00DF0498 /* TImageJoiningExample.app */,
+				95475A271DC9843E00DF0498 /* TImageJoiningExampleTests.xctest */,
+				95475A321DC9843E00DF0498 /* TImageJoiningExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95475A101DC9843D00DF0498 /* TImageJoiningExample */ = {
+			isa = PBXGroup;
+			children = (
+				95475A1D1DC9843D00DF0498 /* Assets.xcassets */,
+				95475A4B1DC9871E00DF0498 /* Controller */,
+				95475A4A1DC9871300DF0498 /* View */,
+				95475A111DC9843D00DF0498 /* Supporting Files */,
+			);
+			path = TImageJoiningExample;
+			sourceTree = "<group>";
+		};
+		95475A111DC9843D00DF0498 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95475A141DC9843D00DF0498 /* AppDelegate.h */,
+				95475A151DC9843D00DF0498 /* AppDelegate.m */,
+				95475A1F1DC9843D00DF0498 /* LaunchScreen.storyboard */,
+				95475A221DC9843D00DF0498 /* Info.plist */,
+				95475A121DC9843D00DF0498 /* main.m */,
+				95475A4F1DC9986A00DF0498 /* TImageJoiningExample.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		95475A2A1DC9843E00DF0498 /* TImageJoiningExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				95475A2B1DC9843E00DF0498 /* TImageJoiningExampleTests.m */,
+				95475A2D1DC9843E00DF0498 /* Info.plist */,
+			);
+			path = TImageJoiningExampleTests;
+			sourceTree = "<group>";
+		};
+		95475A351DC9843E00DF0498 /* TImageJoiningExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				95475A361DC9843E00DF0498 /* TImageJoiningExampleUITests.m */,
+				95475A381DC9843E00DF0498 /* Info.plist */,
+			);
+			path = TImageJoiningExampleUITests;
+			sourceTree = "<group>";
+		};
+		95475A4A1DC9871300DF0498 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				95475A471DC9870900DF0498 /* ShareImageView.h */,
+				95475A481DC9870900DF0498 /* ShareImageView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		95475A4B1DC9871E00DF0498 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				95475A441DC986E500DF0498 /* ViewController.h */,
+				95475A451DC986E500DF0498 /* ViewController.m */,
+				95475A4C1DC98A6900DF0498 /* DetailViewController.h */,
+				95475A4D1DC98A6900DF0498 /* DetailViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95475A0D1DC9843D00DF0498 /* TImageJoiningExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95475A3B1DC9843E00DF0498 /* Build configuration list for PBXNativeTarget "TImageJoiningExample" */;
+			buildPhases = (
+				95475A0A1DC9843D00DF0498 /* Sources */,
+				95475A0B1DC9843D00DF0498 /* Frameworks */,
+				95475A0C1DC9843D00DF0498 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TImageJoiningExample;
+			productName = TImageJoiningExample;
+			productReference = 95475A0E1DC9843D00DF0498 /* TImageJoiningExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95475A261DC9843E00DF0498 /* TImageJoiningExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95475A3E1DC9843E00DF0498 /* Build configuration list for PBXNativeTarget "TImageJoiningExampleTests" */;
+			buildPhases = (
+				95475A231DC9843E00DF0498 /* Sources */,
+				95475A241DC9843E00DF0498 /* Frameworks */,
+				95475A251DC9843E00DF0498 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95475A291DC9843E00DF0498 /* PBXTargetDependency */,
+			);
+			name = TImageJoiningExampleTests;
+			productName = TImageJoiningExampleTests;
+			productReference = 95475A271DC9843E00DF0498 /* TImageJoiningExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		95475A311DC9843E00DF0498 /* TImageJoiningExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95475A411DC9843E00DF0498 /* Build configuration list for PBXNativeTarget "TImageJoiningExampleUITests" */;
+			buildPhases = (
+				95475A2E1DC9843E00DF0498 /* Sources */,
+				95475A2F1DC9843E00DF0498 /* Frameworks */,
+				95475A301DC9843E00DF0498 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95475A341DC9843E00DF0498 /* PBXTargetDependency */,
+			);
+			name = TImageJoiningExampleUITests;
+			productName = TImageJoiningExampleUITests;
+			productReference = 95475A321DC9843E00DF0498 /* TImageJoiningExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95475A061DC9843D00DF0498 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Jeavil;
+				TargetAttributes = {
+					95475A0D1DC9843D00DF0498 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7TRWPX778E;
+						ProvisioningStyle = Automatic;
+					};
+					95475A261DC9843E00DF0498 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7TRWPX778E;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 95475A0D1DC9843D00DF0498;
+					};
+					95475A311DC9843E00DF0498 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7TRWPX778E;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 95475A0D1DC9843D00DF0498;
+					};
+				};
+			};
+			buildConfigurationList = 95475A091DC9843D00DF0498 /* Build configuration list for PBXProject "TImageJoiningExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95475A051DC9843D00DF0498;
+			productRefGroup = 95475A0F1DC9843D00DF0498 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95475A0D1DC9843D00DF0498 /* TImageJoiningExample */,
+				95475A261DC9843E00DF0498 /* TImageJoiningExampleTests */,
+				95475A311DC9843E00DF0498 /* TImageJoiningExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95475A0C1DC9843D00DF0498 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95475A211DC9843D00DF0498 /* LaunchScreen.storyboard in Resources */,
+				95475A1E1DC9843D00DF0498 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95475A251DC9843E00DF0498 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95475A301DC9843E00DF0498 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95475A0A1DC9843D00DF0498 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95475A4E1DC98A6900DF0498 /* DetailViewController.m in Sources */,
+				95475A491DC9870900DF0498 /* ShareImageView.m in Sources */,
+				95475A161DC9843D00DF0498 /* AppDelegate.m in Sources */,
+				95475A461DC986E500DF0498 /* ViewController.m in Sources */,
+				95475A131DC9843D00DF0498 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95475A231DC9843E00DF0498 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95475A2C1DC9843E00DF0498 /* TImageJoiningExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95475A2E1DC9843E00DF0498 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95475A371DC9843E00DF0498 /* TImageJoiningExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95475A291DC9843E00DF0498 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95475A0D1DC9843D00DF0498 /* TImageJoiningExample */;
+			targetProxy = 95475A281DC9843E00DF0498 /* PBXContainerItemProxy */;
+		};
+		95475A341DC9843E00DF0498 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95475A0D1DC9843D00DF0498 /* TImageJoiningExample */;
+			targetProxy = 95475A331DC9843E00DF0498 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95475A1F1DC9843D00DF0498 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95475A201DC9843D00DF0498 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95475A391DC9843E00DF0498 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95475A3A1DC9843E00DF0498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95475A3C1DC9843E00DF0498 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7TRWPX778E;
+				GCC_PREFIX_HEADER = /Users/moon/Desktop/TImageJoiningExample/TImageJoiningExample/TImageJoiningExample.pch;
+				INFOPLIST_FILE = TImageJoiningExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jeavil.com.TImageJoiningExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95475A3D1DC9843E00DF0498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7TRWPX778E;
+				GCC_PREFIX_HEADER = /Users/moon/Desktop/TImageJoiningExample/TImageJoiningExample/TImageJoiningExample.pch;
+				INFOPLIST_FILE = TImageJoiningExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jeavil.com.TImageJoiningExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		95475A3F1DC9843E00DF0498 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7TRWPX778E;
+				INFOPLIST_FILE = TImageJoiningExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jeavil.com.TImageJoiningExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TImageJoiningExample.app/TImageJoiningExample";
+			};
+			name = Debug;
+		};
+		95475A401DC9843E00DF0498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7TRWPX778E;
+				INFOPLIST_FILE = TImageJoiningExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jeavil.com.TImageJoiningExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TImageJoiningExample.app/TImageJoiningExample";
+			};
+			name = Release;
+		};
+		95475A421DC9843E00DF0498 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7TRWPX778E;
+				INFOPLIST_FILE = TImageJoiningExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jeavil.com.TImageJoiningExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TImageJoiningExample;
+			};
+			name = Debug;
+		};
+		95475A431DC9843E00DF0498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7TRWPX778E;
+				INFOPLIST_FILE = TImageJoiningExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jeavil.com.TImageJoiningExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TImageJoiningExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95475A091DC9843D00DF0498 /* Build configuration list for PBXProject "TImageJoiningExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95475A391DC9843E00DF0498 /* Debug */,
+				95475A3A1DC9843E00DF0498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95475A3B1DC9843E00DF0498 /* Build configuration list for PBXNativeTarget "TImageJoiningExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95475A3C1DC9843E00DF0498 /* Debug */,
+				95475A3D1DC9843E00DF0498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		95475A3E1DC9843E00DF0498 /* Build configuration list for PBXNativeTarget "TImageJoiningExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95475A3F1DC9843E00DF0498 /* Debug */,
+				95475A401DC9843E00DF0498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		95475A411DC9843E00DF0498 /* Build configuration list for PBXNativeTarget "TImageJoiningExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95475A421DC9843E00DF0498 /* Debug */,
+				95475A431DC9843E00DF0498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95475A061DC9843D00DF0498 /* Project object */;
+}
