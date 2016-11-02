@@ -446,7 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7TRWPX778E;
-				GCC_PREFIX_HEADER = /Users/moon/Desktop/TImageJoiningExample/TImageJoiningExample/TImageJoiningExample.pch;
+				GCC_PREFIX_HEADER = TImageJoiningExample/TImageJoiningExample.pch;
 				INFOPLIST_FILE = TImageJoiningExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Jeavil.com.TImageJoiningExample;
@@ -459,7 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7TRWPX778E;
-				GCC_PREFIX_HEADER = /Users/moon/Desktop/TImageJoiningExample/TImageJoiningExample/TImageJoiningExample.pch;
+				GCC_PREFIX_HEADER = TImageJoiningExample/TImageJoiningExample.pch;
 				INFOPLIST_FILE = TImageJoiningExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Jeavil.com.TImageJoiningExample;
@@ -536,6 +536,7 @@
 				95475A3D1DC9843E00DF0498 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		95475A3E1DC9843E00DF0498 /* Build configuration list for PBXNativeTarget "TImageJoiningExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +545,7 @@
 				95475A401DC9843E00DF0498 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		95475A411DC9843E00DF0498 /* Build configuration list for PBXNativeTarget "TImageJoiningExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +554,7 @@
 				95475A431DC9843E00DF0498 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
