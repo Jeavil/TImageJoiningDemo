@@ -27,7 +27,11 @@
 - (void)setUpUserInterface {
     _photoImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0,ScreenWidth, ScreenHeight - 40)];
     _photoImageView.center = self.view.center;
+    _photoImageView.userInteractionEnabled = YES;
     [self.view addSubview:_photoImageView];
+    
+    UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapImageview:)];
+    [_photoImageView addGestureRecognizer:tapGesture];
     
     __weak __typeof(&*self) weakSelf = self;
     ShareImageView *view = [[ShareImageView alloc] init];
@@ -49,6 +53,10 @@
        UIImage *image = [UIImage imageWithContentsOfFile:filePath]; 
  */
     }]; 
+}
+
+- (void)tapImageview:(UITapGestureRecognizer *)gesture {
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (void)setUpDataSource {
