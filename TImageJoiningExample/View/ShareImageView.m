@@ -26,12 +26,12 @@
     }
     
     CGSize size = CGSizeMake(ScreenWidth, imageHeight);
-    UIGraphicsBeginImageContextWithOptions(size, NO, [UIScreen mainScreen].scale);
+    UIGraphicsBeginImageContextWithOptions(size, NO, 0);
     CGFloat lastImageHeight = 0.0;
     for (NSInteger i = 0; i < images.count; i++) {
         UIImage *image = images[i];
         [image drawInRect:CGRectMake(0, lastImageHeight, ScreenWidth , (image.size.height * (ScreenWidth / image.size.width)))];
-        lastImageHeight  = lastImageHeight +  (image.size.height * (ScreenWidth / image.size.width));
+        lastImageHeight +=  image.size.height * (ScreenWidth / image.size.width);
     }
     UIImage *stitchImage = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
